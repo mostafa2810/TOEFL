@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <View
+            android:alpha="0"
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#0F62FE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Contact us at: "
+            android:layout_gravity="center"
+            android:textColor="#0F62FE"
+            android:textSize="35sp"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+        <androidx.cardview.widget.CardView
+            android:alpha="0.85"
+            android:id="@+id/cr1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="110dp"
+            app:cardBackgroundColor="#0F62FE"
+            android:layout_marginRight="15sp"
+            app:cardCornerRadius="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Phone Number"
+
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:alpha="0.85"
+            android:id="@+id/cr2"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="#0F62FE"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15sp"
+            app:cardCornerRadius="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Facebook"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <View
+
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:background="#0F62FE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:alpha="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topView1" />
+    </LinearLayout>
+
+
+
+</ScrollView>
+

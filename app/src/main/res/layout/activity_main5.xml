@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".Main5Activity">
+
+
+    <WebView
+        android:id="@+id/myURL3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scroll down for more audios"
+        android:textColor="#EFA21B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOEFL - Listening Part A ( Part I )"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="oNQh70r_790"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOEFL - Listening Part A ( Part II )"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="7EeO6c6gflc"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOEFL - Listening Part - B"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="abbIgAoB8fw"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOEFL - Listening Part - C"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="wMqwsWIkbG4"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOEFL - Post-Test"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="lWlEsS5NH04"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+</LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+</LinearLayout>
